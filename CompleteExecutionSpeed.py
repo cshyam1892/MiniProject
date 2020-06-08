@@ -69,11 +69,6 @@ def booking():
     element.send_keys("1200")
     element = driver.find_element_by_css_selector(".btn-danger")
     element.click()
-    #driver.find_element_by_id("select2-customer_id-result-vek4-2").click()
-    #driver.find_element_by_id("select2-room_id-container").click()
-    #element = driver.find_element_by_css_selector(".select2-search__field")
-    #element.send_keys("102")
-
 
 #find rooms
 def froom():
